@@ -1,3 +1,4 @@
+#%%
 from nbconvert import PDFExporter
 from PyPDF2 import PdfMerger
 import nbformat
@@ -39,3 +40,5 @@ pdf_merger.write(output_pdf)
 pdf_merger.close()
 
 print(f"PDFs have been merged and saved as {output_pdf}")
+
+# %%
